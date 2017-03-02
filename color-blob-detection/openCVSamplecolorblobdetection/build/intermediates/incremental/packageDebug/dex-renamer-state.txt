@@ -1,0 +1,7 @@
+#Wed Mar 01 01:46:58 EST 2017
+base.0=/Users/haojian/projects/usersense/color-blob-detection/openCVSamplecolorblobdetection/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f01374d16728d068ce0c671d5051ba027f4be321
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/haojian/projects/usersense/color-blob-detection/openCVSamplecolorblobdetection/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_00a6806e51532bb27ff027b13ca34f0973733eaa/classes.dex
+base.1=/Users/haojian/projects/usersense/color-blob-detection/openCVSamplecolorblobdetection/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_00a6806e51532bb27ff027b13ca34f0973733eaa
+file.0=/Users/haojian/projects/usersense/color-blob-detection/openCVSamplecolorblobdetection/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_f01374d16728d068ce0c671d5051ba027f4be321/classes.dex

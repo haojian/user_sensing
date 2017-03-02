@@ -1,0 +1,2 @@
+include ':openCVSamplecameracalibration'
+include  ':libraries:opencv'

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="arm64-v8a,armeabi-v7a,armeabi"
+    api-level="25"
+    density="560dpi"
+    format="8"
+    plugin-version="2.2.3"
+    timestamp="10938250011755"
+    token="6347286877355563507"
+    verifier="COLD_SWAP_REQUESTED" >
+
+    <task
+        name="javac"
+        duration="0" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="0" />
+    <task
+        name="verifier"
+        duration="0" />
+
+    <build
+        timestamp="10709041583245"
+        verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/Users/haojian/projects/usersense/camera-calibration/openCVSamplecameracalibration/build/outputs/apk/openCVSamplecameracalibration-debug.apk"
+            type="MAIN" />
+    </build>
+    <build
+        timestamp="10938250011755"
+        verifier="COLD_SWAP_REQUESTED" />
+
+</instant-run>

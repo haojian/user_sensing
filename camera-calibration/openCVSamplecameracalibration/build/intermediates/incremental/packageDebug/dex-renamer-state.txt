@@ -1,0 +1,7 @@
+#Tue Feb 28 22:58:13 EST 2017
+base.0=/Users/haojian/projects/usersense/camera-calibration/openCVSamplecameracalibration/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8578d632d74c98359672b402af2ecbacbbf6b6ac
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=/Users/haojian/projects/usersense/camera-calibration/openCVSamplecameracalibration/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ef5afa65494684868f2579bd062ef2fb7056e8e/classes.dex
+base.1=/Users/haojian/projects/usersense/camera-calibration/openCVSamplecameracalibration/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run_9ef5afa65494684868f2579bd062ef2fb7056e8e
+file.0=/Users/haojian/projects/usersense/camera-calibration/openCVSamplecameracalibration/build/intermediates/transforms/dex/debug/folders/1000/10/instant-run-bootstrap_8578d632d74c98359672b402af2ecbacbbf6b6ac/classes.dex

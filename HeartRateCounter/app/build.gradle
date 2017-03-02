@@ -1,5 +1,6 @@
 apply plugin: 'com.android.application'
 
+
 android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
@@ -29,4 +30,6 @@ dependencies {
     compile 'com.jjoe64:graphview:4.2.1'
     testCompile 'junit:junit:4.12'
     compile project(':libraries:opencv')
+    //    compile group: 'ddf.minim', name: 'ddf.minim', version: '2.2.0'
+    compile files('libs/ddf.minim-2.2.0.jar')
 }

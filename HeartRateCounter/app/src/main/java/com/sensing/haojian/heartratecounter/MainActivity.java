@@ -57,6 +57,8 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
     private GraphView ppgGraphView;
     private LineGraphSeries<DataPoint> ppgData;
 
+    BandPass bandpass = new BandPass(0.5f, 5, 30);
+
     private int rawPoints = 0;
     private List<Long> timestamps;
 
@@ -162,18 +164,16 @@ public class MainActivity extends AppCompatActivity implements CameraBridgeViewB
 
 
     public float[] calcHeartRate(List<Long> timestamps) {
-        if (timestamps.size() > 20) {
+        if (timestamps.size() > 25) {
             float[] rates = new float[3];
             rates[0] = (float) (timestamps.size() / ((timestamps.get(timestamps.size() - 1) - timestamps.get(0)) / 1000.0)) * 60;
             rates[1] = (float) (1 / ((timestamps.get(timestamps.size() - 1) - timestamps.get(timestamps.size() - 2)) / 1000.0)) * 60;
-            rates[2] = (float) (20 / ((timestamps.get(timestamps.size() - 1) - timestamps.get(timestamps.size() - 21)) / 1000.0)) * 60;
+            rates[2] = (float) (15 / ((timestamps.get(timestamps.size() - 1) - timestamps.get(timestamps.size() - 16)) / 1000.0)) * 60;
             return rates;
         }
         return null;
     }
 
-    BandPass bandpass = new BandPass(0.5f, 5, 30);
-//    BandPass bandpass = new BandPass(5f, 10f, 30);
     float signal[] = new float[1] ;
 
     private void handleRednessEvent(final double redness) {

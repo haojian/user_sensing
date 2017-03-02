@@ -1,2 +1,0 @@
-include ':openCVSamplecolorblobdetection'
-include  ':libraries:opencv'
